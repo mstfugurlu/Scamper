@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using PathCreation;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -10,10 +11,11 @@ public class PlayerMove : MonoBehaviour
    public EndOfPathInstruction endOfPathInstruction;
    public float speed = 5f;
    private float distanceTravelled;
-
+   public AnimatorManager animatorManager;
 
    private void Start()
    {
+      speed = 0;
       if (pathCreator!=null)
       {
          pathCreator.pathUpdated += OnPathChanged;
@@ -23,6 +25,13 @@ public class PlayerMove : MonoBehaviour
 
    private void Update()
    {
+      if (Input.GetMouseButton(0))
+      {
+         animatorManager.RunAnimStart();
+         
+         speed = 13f;
+      }
+      
       if (pathCreator!=null)
       {
          distanceTravelled += speed * Time.deltaTime;

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e2449b0f-e7f1-43e7-a6b2-f6e6f3113753" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" afterDir="false" />
     </list>
@@ -65,6 +68,8 @@
       <workItem from="1644483532254" duration="2436000" />
       <workItem from="1644489871107" duration="5039000" />
       <workItem from="1645441868835" duration="1261000" />
+      <workItem from="1645443616256" duration="66000" />
+      <workItem from="1645443696613" duration="2754000" />
     </task>
     <servers />
   </component>

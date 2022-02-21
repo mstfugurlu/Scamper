@@ -7,9 +7,10 @@ public class Obstacle : MonoBehaviour
 {
    private void OnTriggerEnter(Collider other)
    {
-      if (other.gameObject.tag=="Player")
+      if (other.gameObject.CompareTag("Player"))
       {
-         Debug.Log("çarptı");
+         Debug.Log("temas");
+         
       }
    }
 }
