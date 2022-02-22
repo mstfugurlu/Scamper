@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e2449b0f-e7f1-43e7-a6b2-f6e6f3113753" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RotateObstacle (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RotateObstacle (1).prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimatorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimatorManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,9 @@
       <workItem from="1644489871107" duration="5039000" />
       <workItem from="1645441868835" duration="1261000" />
       <workItem from="1645443616256" duration="66000" />
-      <workItem from="1645443696613" duration="2754000" />
+      <workItem from="1645443696613" duration="3502000" />
+      <workItem from="1645522530356" duration="3038000" />
+      <workItem from="1645557058966" duration="1648000" />
     </task>
     <servers />
   </component>

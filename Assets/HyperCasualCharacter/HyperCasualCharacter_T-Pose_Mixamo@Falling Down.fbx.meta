@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 14183774a9550c64dbe0f01ab51d4f21
+guid: cf50b21c7bc2d8e4280cef55415b0a3a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -8,7 +8,7 @@ ModelImporter:
     second: mixamo.com
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -75,8 +75,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - cf50b21c7bc2d8e4280cef55415b0a3a
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -99,7 +98,7 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -9,9 +9,10 @@ public class PlayerMove : MonoBehaviour
 {
    public PathCreator pathCreator;
    public EndOfPathInstruction endOfPathInstruction;
-   public float speed = 5f;
+   public static float speed = 5f;
    private float distanceTravelled;
    public AnimatorManager animatorManager;
+   public GameObject speeds;
 
    private void Start()
    {
