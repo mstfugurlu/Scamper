@@ -3,14 +3,64 @@
   <component name="ChangeListManager">
     <list default="true" id="e2449b0f-e7f1-43e7-a6b2-f6e6f3113753" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RotateObstacle (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RotateObstacle (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@Big Hit To Head.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@Big Hit To Head.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@Falling Back Death.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@Falling Back Death.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@Head Hit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@Head Hit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@PunchingIdle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@PunchingIdle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@PunchingLeft.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@PunchingLeft.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@PunchingRight.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter@PunchingRight.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter_T-Pose_Mixamo@Old Man Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter_T-Pose_Mixamo@Old Man Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter_T-Pose_Mixamo@Running.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Animations/HyperCasualCharacter_T-Pose_Mixamo@Running.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Atletli_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Atletli_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Fan Of Superman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Fan Of Superman.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Fan of Spider Man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Fan of Spider Man.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Hitman_Base_Color (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Hitman_Base_Color (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Hitman_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Hitman_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_Animations.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_Animations.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo@Falling Down.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_T-Pose_Mixamo@Falling Down.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_ZbrushUV_MixamoRig.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/HyperCasualCharacter_ZbrushUV_MixamoRig.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Kratos_Diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HyperCasualCharacter/Kratos_Diffuse.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/PlayerMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/PlayerMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Scripts/RoadMeshCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Scripts/RoadMeshCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RotateObstacle (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RotateObstacle (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimatorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimatorManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +68,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/b0/d923a742/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/OneDrive/Masaüstü/SCRİPTS/CameraFollow/CameraFollow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/33/e26dce8d/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,6 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -75,6 +128,12 @@
       <workItem from="1645443696613" duration="3502000" />
       <workItem from="1645522530356" duration="3038000" />
       <workItem from="1645557058966" duration="1648000" />
+      <workItem from="1645612895414" duration="10710000" />
+      <workItem from="1645698263644" duration="11884000" />
+      <workItem from="1645876645803" duration="9060000" />
+      <workItem from="1646059173721" duration="3563000" />
+      <workItem from="1646137063026" duration="16146000" />
+      <workItem from="1646317168649" duration="12100000" />
     </task>
     <servers />
   </component>
@@ -97,5 +156,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
