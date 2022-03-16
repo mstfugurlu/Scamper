@@ -1,9 +1,11 @@
 ﻿using System.Collections.Generic;
 using PathCreation.Utility;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 namespace PathCreation {
+    
     /// A vertex path is a collection of points (vertices) that lie along a bezier path.
     /// This allows one to do things like move at a constant speed along the path,
     /// which is not possible with a bezier path directly due to how they're constructed mathematically.
@@ -40,6 +42,7 @@ namespace PathCreation {
 
         #endregion
 
+        public UnityAction EndofTheRoad;
         #region Constructors
 
         /// <summary> Splits bezier path into array of vertices along the path.</summary>
@@ -266,6 +269,16 @@ namespace PathCreation {
                 case EndOfPathInstruction.Stop:
                     t = Mathf.Clamp01 (t);
                     break;
+                case EndOfPathInstruction.Cut:
+                    t = Mathf.Clamp01(t);
+                    if (t == 1)
+                    {
+                        EndofTheRoad?.Invoke();
+                        Debug.Log("as");
+                        
+                    }
+                    break;
+                
             }
 
             int prevIndex = 0;

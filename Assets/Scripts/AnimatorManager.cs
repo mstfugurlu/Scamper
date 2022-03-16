@@ -8,7 +8,8 @@ public class AnimatorManager : MonoBehaviour
 
    [SerializeField] private string runAnim;
 
-   [SerializeField] private string fallAnim;
+   [SerializeField] private string fallAnim; 
+   [SerializeField] private string danceAnim;
 
    public void RunAnimStart()
    {
@@ -24,6 +25,14 @@ public class AnimatorManager : MonoBehaviour
       
    }
 
+   public void DanceAnimStart()
+   {
+      anim.SetBool(runAnim,false);
+      
+      anim.SetBool(danceAnim,true);
+      
+      
+   }
   
    
 

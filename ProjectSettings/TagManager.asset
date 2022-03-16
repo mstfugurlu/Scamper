@@ -8,6 +8,7 @@ TagManager:
   - DownSideObs
   - RLMoveObs
   - MakeTransparentObject
+  - HorRotObs
   layers:
   - Default
   - TransparentFX

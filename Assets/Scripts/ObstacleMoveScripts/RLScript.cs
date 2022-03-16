@@ -9,8 +9,11 @@ public class RLScript : MonoBehaviour
     [SerializeField] private Transform startPoint, endPoint;
     public float RLMoveObsSpeed;
     [SerializeField] private PlayerMove MovePlayer;
+    public GameObject CmCamera;
+    public AudioSource AudioSource;
     private void Awake()
     {
+        AudioSource = gameObject.GetComponent<AudioSource>();
         SlideRotation.RotateObstacle += ObstacleRotation;
     }
 
@@ -26,7 +29,27 @@ public class RLScript : MonoBehaviour
 
 
     }
-    private void OnTriggerEnter(Collider other)
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            AudioSource.enabled = true;
+            MovePlayer.canControl = false;
+            MovePlayer.LevelFailCanvas.SetActive(true);
+            MovePlayer.speed = 0f;
+            MovePlayer.animations.enabled = false;
+            MovePlayer.enabled = false;
+            CmCamera.SetActive(false);
+            MovePlayer._audioSource.enabled = false;
+            foreach (GameObject rb in MovePlayer.PlayerBody)
+            {
+                rb.GetComponent<Rigidbody>().isKinematic = false;
+            }
+        }
+    }
+    /* private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag=="Player")
         {
@@ -35,11 +58,12 @@ public class RLScript : MonoBehaviour
             MovePlayer.speed = 0f;
             MovePlayer.animations.enabled = false;
             MovePlayer.enabled = false;
+            CmCamera.SetActive(false);
             foreach (GameObject rb in MovePlayer.PlayerBody)
             {
                 rb.GetComponent<Rigidbody>().isKinematic = false;
             }
         }
-    }
+    }*/
     
 }
