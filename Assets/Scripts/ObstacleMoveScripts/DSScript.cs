@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class DSScript : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class DSScript : MonoBehaviour
     [SerializeField] private PlayerMove MovePlayer;
     public GameObject CmCamera;
     public AudioSource AudioSource;
+    [SerializeField] private GameObject camera;
 
 
     private void Awake()
@@ -45,6 +47,7 @@ public class DSScript : MonoBehaviour
             MovePlayer.enabled = false;
             CmCamera.SetActive(false);
             MovePlayer._audioSource.enabled = false;
+            camera.GetComponent<ParentConstraint>().enabled = false;
             foreach (GameObject rb in MovePlayer.PlayerBody)
             {
                 rb.GetComponent<Rigidbody>().isKinematic = false;

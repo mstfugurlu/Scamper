@@ -43,6 +43,7 @@ namespace PathCreation {
         #endregion
 
         public UnityAction EndofTheRoad;
+        public UnityAction EndofTheRoad2;
         #region Constructors
 
         /// <summary> Splits bezier path into array of vertices along the path.</summary>
@@ -275,10 +276,17 @@ namespace PathCreation {
                     {
                         EndofTheRoad?.Invoke();
                         Debug.Log("as");
+                    }
+                    break;
+                case  EndOfPathInstruction.Cut2:
+                    t = Mathf.Clamp01(t);
+                    if (t==1)
+                    {
+                        EndofTheRoad2?.Invoke();
+                        Debug.Log("as2");
                         
                     }
                     break;
-                
             }
 
             int prevIndex = 0;

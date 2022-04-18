@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.Events;
 using Vector3 = UnityEngine.Vector3;
 
@@ -14,6 +15,7 @@ public class VerRotObstacle : MonoBehaviour
    [SerializeField] private PlayerMove MovePlayer;
    public GameObject CmCamera;
    public AudioSource AudioSource;
+   [SerializeField] private GameObject camera;
    
 
 
@@ -48,6 +50,7 @@ public class VerRotObstacle : MonoBehaviour
          MovePlayer.GetComponent<BoxCollider>().enabled = false;
          CmCamera.SetActive(false);
          MovePlayer._audioSource.enabled = false;
+         camera.GetComponent<ParentConstraint>().enabled = false;
          foreach (GameObject rb in MovePlayer.PlayerBody)
          {
             rb.GetComponent<Rigidbody>().isKinematic = false;

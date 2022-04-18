@@ -1,0 +1,683 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.556; Version 2009; 64bit' Language: 'tr' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/musta/GitHub/Scamper/DEMO
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62888
+Successfully changed project path to: C:/Users/musta/GitHub/Scamper/DEMO
+C:/Users/musta/GitHub/Scamper/DEMO
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/musta/GitHub/Scamper/DEMO/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001154 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1798ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (387ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 3.708100 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.063200 ms MarkObjects: 3.227300 ms  DeleteObjects: 0.132900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2022e14a580129e0e64b35677e5ee512') in 0.018488 seconds 
+  Import took 0.022370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.819772 seconds.
+  path: Assets/Models
+  artifactKey: Guid(970f04d8b6c3a65459cbf437dc695bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(970f04d8b6c3a65459cbf437dc695bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592467691cdbda0ae33de7001d7669b5') in 0.011697 seconds 
+  Import took 0.014937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048274 seconds.
+  path: Assets/Models/flashlightfbx.fbx
+  artifactKey: Guid(6137fa4d5643d415c9d5ce4cff7b6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/flashlightfbx.fbx using Guid(6137fa4d5643d415c9d5ce4cff7b6a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574919a2e8d4bd0e9c615edb56b10e84') in 0.342541 seconds 
+  Import took 0.346090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Models/moneystack_holder.obj
+  artifactKey: Guid(fb24d43fd2f25466cbc7acb86aff3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/moneystack_holder.obj using Guid(fb24d43fd2f25466cbc7acb86aff3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d35f9dfd596edbbb836ed9b6274c206') in 0.035185 seconds 
+  Import took 0.038721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Models/UVlight.fbx
+  artifactKey: Guid(260f49078d0354609894bc6de5977ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/UVlight.fbx using Guid(260f49078d0354609894bc6de5977ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a557a3ba205a212f76c838b6136eb74d') in 0.042171 seconds 
+  Import took 0.047107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Models/paper_shredder_mini.fbx
+  artifactKey: Guid(7d3eb932a047448a4a3fee3347245828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/paper_shredder_mini.fbx using Guid(7d3eb932a047448a4a3fee3347245828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cb1b28cebcdd922e5e5892e59e47f2') in 0.116821 seconds 
+  Import took 0.120954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/money.obj
+  artifactKey: Guid(724e400c2f2f2418d8145bc542f9d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/money.obj using Guid(724e400c2f2f2418d8145bc542f9d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a2ec03575b92fa81d3bfdcf33a4bc9') in 0.028751 seconds 
+  Import took 0.033604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Models/magnifying_glass.fbx
+  artifactKey: Guid(9742591f3b0e34dffbb27f37275afdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/magnifying_glass.fbx using Guid(9742591f3b0e34dffbb27f37275afdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d59d12f737b28067f354cde06cb48e') in 0.053138 seconds 
+  Import took 0.057082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Models/paper.obj
+  artifactKey: Guid(bf4c06fbd689341dd8b10418ccbafadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/paper.obj using Guid(bf4c06fbd689341dd8b10418ccbafadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103a93394eab597ca47ddc3a3af00b1f') in 0.032936 seconds 
+  Import took 0.036650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004300 seconds.
+  path: Assets/Models/paper.obj
+  artifactKey: Guid(bf4c06fbd689341dd8b10418ccbafadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/paper.obj using Guid(bf4c06fbd689341dd8b10418ccbafadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103a93394eab597ca47ddc3a3af00b1f') in 0.031872 seconds 
+  Import took 0.036263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.746460 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(ec6568bac3fd5564f9b2f4b09b66879a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(ec6568bac3fd5564f9b2f4b09b66879a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5eac04e6a61b5b871edf054f38eb7f') in 0.007048 seconds 
+  Import took 0.014723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038739 seconds.
+  path: Assets/Materials/flashlight_purplelight.mat
+  artifactKey: Guid(af79737fd42e94cbfac2663e6f8299b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flashlight_purplelight.mat using Guid(af79737fd42e94cbfac2663e6f8299b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654ab40e4410d721fff679026950c280') in 0.045493 seconds 
+  Import took 0.048450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Materials/Mangifying Glass.mat
+  artifactKey: Guid(088439c3b0c7a4607a7eb2d72a967cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mangifying Glass.mat using Guid(088439c3b0c7a4607a7eb2d72a967cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f182e1ee38af234ba0356d086c823f') in 0.138376 seconds 
+  Import took 0.141329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Materials/paper_mat_yellow.mat
+  artifactKey: Guid(b252ace72a10d41fb9a9d86523e9cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/paper_mat_yellow.mat using Guid(b252ace72a10d41fb9a9d86523e9cd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fdc4e73d2ac72c559ccb4cec761377') in 0.315406 seconds 
+  Import took 0.319745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Materials/MonayMat_UV1.mat
+  artifactKey: Guid(ca303f6752f4d492b825620c90b3fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MonayMat_UV1.mat using Guid(ca303f6752f4d492b825620c90b3fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b35bd3cc93a0f07e86b8638f34d756') in 0.018180 seconds 
+  Import took 0.022906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/metal.mat
+  artifactKey: Guid(016dd72c0ac8e4cf3a87fec2b0cbf6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/metal.mat using Guid(016dd72c0ac8e4cf3a87fec2b0cbf6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011648b0cf7bf600015b33684e52f54d') in 0.272391 seconds 
+  Import took 0.276189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/MoneyMat.mat
+  artifactKey: Guid(ec86453b60b854cca823ad81809a80d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MoneyMat.mat using Guid(ec86453b60b854cca823ad81809a80d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb2c4eb6fda00183e60bac681758296') in 0.018911 seconds 
+  Import took 0.022651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Materials/magnifying_glass.mat
+  artifactKey: Guid(38030a11e0dfb48a59c4aefb5f2ed311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/magnifying_glass.mat using Guid(38030a11e0dfb48a59c4aefb5f2ed311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7894b3c26f0075391347591ba719ca81') in 0.015376 seconds 
+  Import took 0.019037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Materials/paper_mat.mat
+  artifactKey: Guid(089320f4a1ee843daaca40f0195fc6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/paper_mat.mat using Guid(089320f4a1ee843daaca40f0195fc6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafac24fc87be6e3ec6f2a12d759543b') in 0.030853 seconds 
+  Import took 0.040915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Materials/glass2.mat
+  artifactKey: Guid(f03ddedd7e10a40b48a60355c2c6d39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glass2.mat using Guid(f03ddedd7e10a40b48a60355c2c6d39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3574af5047b4eced49f7f479d154488') in 0.192913 seconds 
+  Import took 0.198893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/ground2.mat
+  artifactKey: Guid(5dc44574047ea4af280ccd73411c846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ground2.mat using Guid(5dc44574047ea4af280ccd73411c846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b9a706a8bd8d4cf4c0fba269f23e32') in 0.026299 seconds 
+  Import took 0.030370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.633516 seconds.
+  path: Assets/Materials/UVLight.mat
+  artifactKey: Guid(628e772f328ce48518748102f3e42e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UVLight.mat using Guid(628e772f328ce48518748102f3e42e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca46202155e8a1e3a234870d93c7a33') in 0.177628 seconds 
+  Import took 0.183465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Materials/UVLight_black.mat
+  artifactKey: Guid(44e8756566b8849daa4de0afe2b8df3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UVLight_black.mat using Guid(44e8756566b8849daa4de0afe2b8df3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e345bf6c0a4237ad7b4d159477768a') in 0.016503 seconds 
+  Import took 0.021289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Materials/uvlight_mask.mat
+  artifactKey: Guid(db748c70f01444f278a7e18d4d7de151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/uvlight_mask.mat using Guid(db748c70f01444f278a7e18d4d7de151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c75f183f3ac22075c8897ab1c923961') in 0.019518 seconds 
+  Import took 0.029006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Materials/UVLight_MoneyMat.mat
+  artifactKey: Guid(adcc50880c67347d695a457c4e1408fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UVLight_MoneyMat.mat using Guid(adcc50880c67347d695a457c4e1408fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20ce21e4d9d84ee7f40bd57307b9fc5') in 0.014304 seconds 
+  Import took 0.019144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.817086 seconds.
+  path: Assets/Materials/DoodleMaterials
+  artifactKey: Guid(ecaab473f2b05f2458b0b942628ac7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DoodleMaterials using Guid(ecaab473f2b05f2458b0b942628ac7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1b1589d892a29b5aa914e0197d24e0') in 0.008088 seconds 
+  Import took 0.013134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052744 seconds.
+  path: Assets/Materials/DoodleMaterials/MoneyMat_Doodle1.mat
+  artifactKey: Guid(33fbc153a2b4545ba89ee457b0c5df0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DoodleMaterials/MoneyMat_Doodle1.mat using Guid(33fbc153a2b4545ba89ee457b0c5df0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f1319c38fc044b673896b2e9ebfb04') in 0.028001 seconds 
+  Import took 0.031175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3544.944071 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame
+  artifactKey: Guid(af6a042085abb894f802de3ac6e905f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame using Guid(af6a042085abb894f802de3ac6e905f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7324f93736120be54fa626940bac13d1') in 0.011276 seconds 
+  Import took 0.077531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.181375 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Animations
+  artifactKey: Guid(c6959f856e83d45709c24febc6e05c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Animations using Guid(c6959f856e83d45709c24febc6e05c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b4f55d0241ea8a72d8d1ad84a25979') in 0.007098 seconds 
+  Import took 0.010280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.196816 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models
+  artifactKey: Guid(0573409b3b2e84f6dbfc43e07408acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models using Guid(0573409b3b2e84f6dbfc43e07408acca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494afbb04d2726c877a84b06f86df5d4') in 0.007345 seconds 
+  Import took 0.010849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080118 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Dish_Soap.fbx
+  artifactKey: Guid(942d8bee16d2d4c58bf4890352fa60f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Dish_Soap.fbx using Guid(942d8bee16d2d4c58bf4890352fa60f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead9edfb402a2021ffeccb99363ba549') in 0.142573 seconds 
+  Import took 0.146043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Woman.fbx
+  artifactKey: Guid(8158daf83851949e2bc5e14d12d7bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Woman.fbx using Guid(8158daf83851949e2bc5e14d12d7bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fecdadf5d249aaf7b165ee0b47f477') in 0.157220 seconds 
+  Import took 0.160861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Faucet_Small.fbx
+  artifactKey: Guid(1c4802f02a956467cb9f85b2a9969ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Faucet_Small.fbx using Guid(1c4802f02a956467cb9f85b2a9969ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9773f08285d827ad66e66098d9b0aa38') in 0.051381 seconds 
+  Import took 0.055483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Liquid_Soap.fbx
+  artifactKey: Guid(861675a7777a64cfd9718d38bba9cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Liquid_Soap.fbx using Guid(861675a7777a64cfd9718d38bba9cb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8451973d5d531560f4f4d5d3d46a7f9') in 0.395090 seconds 
+  Import took 0.399073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Faucet_Small.fbx
+  artifactKey: Guid(1c4802f02a956467cb9f85b2a9969ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Faucet_Small.fbx using Guid(1c4802f02a956467cb9f85b2a9969ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9773f08285d827ad66e66098d9b0aa38') in 0.045731 seconds 
+  Import took 0.049946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Toilet.fbx
+  artifactKey: Guid(356b911cc2cdc434e882cb24850d834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Toilet.fbx using Guid(356b911cc2cdc434e882cb24850d834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237626c1d56cb9d5c29801d42959a6b2') in 0.087313 seconds 
+  Import took 0.091685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Man.fbx
+  artifactKey: Guid(76129c0977f7a4aeb803926f78e4463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Man.fbx using Guid(76129c0977f7a4aeb803926f78e4463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e5b17ba640c4377079a4baa23ecd55') in 0.067361 seconds 
+  Import took 0.072216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Phone.fbx
+  artifactKey: Guid(178cc158e67dd40dc9966cc367ba3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Phone.fbx using Guid(178cc158e67dd40dc9966cc367ba3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298fc2a9b22fa1735443ad7c49a47e94') in 0.105239 seconds 
+  Import took 0.109312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Sink.fbx
+  artifactKey: Guid(dbdf4ae12fee841c1abdb8f2c943fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Sink.fbx using Guid(dbdf4ae12fee841c1abdb8f2c943fa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d980b75c63eee20ee9e478cf4bd9a') in 0.141793 seconds 
+  Import took 0.149428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Spray_Bottle.fbx
+  artifactKey: Guid(ecad49cb4d663436682660686e79a08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Spray_Bottle.fbx using Guid(ecad49cb4d663436682660686e79a08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1cb5534a9f6959cb1cb25ac57bda83') in 0.068474 seconds 
+  Import took 0.071707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Shower.fbx
+  artifactKey: Guid(e12d3c919411041b48a3b985fca780b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Shower.fbx using Guid(e12d3c919411041b48a3b985fca780b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579609a1b89c0ca20175d46136b79dc8') in 0.046550 seconds 
+  Import took 0.050127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002318 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Shower.fbx
+  artifactKey: Guid(e12d3c919411041b48a3b985fca780b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Models/Shower.fbx using Guid(e12d3c919411041b48a3b985fca780b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579609a1b89c0ca20175d46136b79dc8') in 0.053390 seconds 
+  Import took 0.057270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.774480 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites
+  artifactKey: Guid(9ce28fd3015fd4ce09c5b79001113475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites using Guid(9ce28fd3015fd4ce09c5b79001113475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad9f45a5baa4c9506b50a6c376350f2') in 0.007661 seconds 
+  Import took 0.010609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110747 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Arrow.png
+  artifactKey: Guid(d4f6354d78f1c4f5dbd41b017d13176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Arrow.png using Guid(d4f6354d78f1c4f5dbd41b017d13176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd125adac501f029a7b1212b3aa1d706b') in 0.058386 seconds 
+  Import took 0.061549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Box_Stroke.png
+  artifactKey: Guid(2fdb24c61c4924095878fef14f2a693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Box_Stroke.png using Guid(2fdb24c61c4924095878fef14f2a693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0940daad36c6be4028fb16cb1f4fd93e') in 0.013515 seconds 
+  Import took 0.016549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Glow_Star.png
+  artifactKey: Guid(91d3d754c3f2ed742b805399cbbbe0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Glow_Star.png using Guid(91d3d754c3f2ed742b805399cbbbe0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2563eb831bfea68d403f3734455da843') in 0.015968 seconds 
+  Import took 0.019575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_2.png
+  artifactKey: Guid(5ffaaa406d4e94f7eb95f971c766509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_2.png using Guid(5ffaaa406d4e94f7eb95f971c766509b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c8328b0bb61ef45cfb658bd409ccb6') in 0.016625 seconds 
+  Import took 0.019627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Outline_Circle.png
+  artifactKey: Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Outline_Circle.png using Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6010d98fb8dc308d06a998f3ca0d96f1') in 0.022603 seconds 
+  Import took 0.025966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pattern.png
+  artifactKey: Guid(d47e88419a34048adab19cec7090af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pattern.png using Guid(d47e88419a34048adab19cec7090af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfece3ed87d5d42623f4f3276fc1e34') in 0.015668 seconds 
+  Import took 0.019635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Fire_Emoji.png
+  artifactKey: Guid(f5eb6c40295f84dafaca0f2b151ef54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Fire_Emoji.png using Guid(f5eb6c40295f84dafaca0f2b151ef54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ea940e35aac4cc745e50eb466c3488') in 0.020437 seconds 
+  Import took 0.025163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Flour_Blue.png
+  artifactKey: Guid(e53c9d395d1bb4a7cbc12de754875ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Flour_Blue.png using Guid(e53c9d395d1bb4a7cbc12de754875ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4339f3539fbb8f72fa12302727e2d4a1') in 0.023766 seconds 
+  Import took 0.028174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_3.png
+  artifactKey: Guid(a90b0b45b36194631a5ac999dec79126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_3.png using Guid(a90b0b45b36194631a5ac999dec79126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095dd38affe6a8e05cdd3a6bcda3a14b') in 0.020998 seconds 
+  Import took 0.024537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Man_Photo.png
+  artifactKey: Guid(38bcb2ab23cfc484a8a6a53bfc18cf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Man_Photo.png using Guid(38bcb2ab23cfc484a8a6a53bfc18cf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9b6ec965ae2562d7cc12e476381762') in 0.020592 seconds 
+  Import took 0.025310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Glow_Circle.png
+  artifactKey: Guid(e02f4ca0cbea0924ca909556bad22475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Glow_Circle.png using Guid(e02f4ca0cbea0924ca909556bad22475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bf3124bc43d746c5de8dc7869072d4') in 0.018972 seconds 
+  Import took 0.022729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Shine_Texture.png
+  artifactKey: Guid(d48a8ece090704fceabbce6366420311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Shine_Texture.png using Guid(d48a8ece090704fceabbce6366420311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af64969930170afa31bd8db76b328f71') in 0.012346 seconds 
+  Import took 0.016360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_1.png
+  artifactKey: Guid(4fc9e6d2d7202454da20a3288bbff399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_1.png using Guid(4fc9e6d2d7202454da20a3288bbff399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec4c16a0e31a94d5cb97e2e33bc40cd') in 0.021015 seconds 
+  Import took 0.024963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Kiss_Emoji.png
+  artifactKey: Guid(d0cf227b7303943039323202d65b60d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Kiss_Emoji.png using Guid(d0cf227b7303943039323202d65b60d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05eaed7a2d0132046cfa342ba58d152') in 0.020568 seconds 
+  Import took 0.024366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_4.png
+  artifactKey: Guid(a6c55d4dba25f416c91b7a770dbc9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Pose_4.png using Guid(a6c55d4dba25f416c91b7a770dbc9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ad52a2f0bcd4af7e3e91645283fb89') in 0.019287 seconds 
+  Import took 0.022776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Circle_Plain.png
+  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Circle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50de50f4e2c78a6830b638e733d2d395') in 0.016362 seconds 
+  Import took 0.019932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Kiss_Emoji.png
+  artifactKey: Guid(d0cf227b7303943039323202d65b60d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Kiss_Emoji.png using Guid(d0cf227b7303943039323202d65b60d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05eaed7a2d0132046cfa342ba58d152') in 0.016806 seconds 
+  Import took 0.020519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.086456 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Skin_Texture.png
+  artifactKey: Guid(3ae958a3c02f94f32bf52be87d5881d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Skin_Texture.png using Guid(3ae958a3c02f94f32bf52be87d5881d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b370363db8e5e04e4d96d728b24680a8') in 0.011696 seconds 
+  Import took 0.014704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Text_Bubble.png
+  artifactKey: Guid(ba6ee5863179b4439b7fc160be85bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Text_Bubble.png using Guid(ba6ee5863179b4439b7fc160be85bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3feb773cf02cfb0d7f0b9d148164f5c') in 0.018387 seconds 
+  Import took 0.021260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Sweaty_Emoji.png
+  artifactKey: Guid(453f287e88ff64f0380e1147da74157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Sweaty_Emoji.png using Guid(453f287e88ff64f0380e1147da74157f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57bf3d04fabf754ee906b6236e2b2fa') in 0.016160 seconds 
+  Import took 0.019292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254799 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Towel_Texture.png
+  artifactKey: Guid(02760f0f3bcb04fa194e52c7e0d6978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Towel_Texture.png using Guid(02760f0f3bcb04fa194e52c7e0d6978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d1373f51ce04d704a4b9cd16e46fda') in 0.010910 seconds 
+  Import took 0.013950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/WomanSkin_Texture.png
+  artifactKey: Guid(e14c73c17054e41a7ae43c03cd250872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/WomanSkin_Texture.png using Guid(e14c73c17054e41a7ae43c03cd250872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0769beafb56f1b04bfc60910d6149d') in 0.010204 seconds 
+  Import took 0.012893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Woman_Photo.png
+  artifactKey: Guid(fe7196fa1052a45e09692b0fb38684cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Woman_Photo.png using Guid(fe7196fa1052a45e09692b0fb38684cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6c147bc255e1bf13d7d45f5de3de04') in 0.015453 seconds 
+  Import took 0.022695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067467 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Wood_Texture_1.png
+  artifactKey: Guid(7e631337eec7c4eafb79e9d99601b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Wood_Texture_1.png using Guid(7e631337eec7c4eafb79e9d99601b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e0b8f660345632c5f8f0d71207d92f') in 0.013705 seconds 
+  Import took 0.017833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Wood_Texture_2.png
+  artifactKey: Guid(f3b4ae7453db14e1c8936d05ee50fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Wood_Texture_2.png using Guid(f3b4ae7453db14e1c8936d05ee50fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de475d35c53fa5bd77e12164f6a1eb4') in 0.013603 seconds 
+  Import took 0.016971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Wood_Texture_1.png
+  artifactKey: Guid(7e631337eec7c4eafb79e9d99601b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGames/BathroomSelfie_Minigame/BathroomSelfie_Sprites/Wood_Texture_1.png using Guid(7e631337eec7c4eafb79e9d99601b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e0b8f660345632c5f8f0d71207d92f') in 0.007270 seconds 
+  Import took 0.010214 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

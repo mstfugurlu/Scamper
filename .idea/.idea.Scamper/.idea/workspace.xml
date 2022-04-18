@@ -3,27 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e2449b0f-e7f1-43e7-a6b2-f6e6f3113753" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scamper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ObstacleMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ObstacleMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/ObstacleMat2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/ObstacleMat2.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Core/Runtime/Objects/EndOfPathInstruction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Core/Runtime/Objects/EndOfPathInstruction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Core/Runtime/Objects/VertexPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Core/Runtime/Objects/VertexPath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road Underside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road Underside.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/PathCreator/Examples/Materials/Road.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DownSideObstacle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DownSideObstacle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RightLeftMoveObstacle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RightLeftMoveObstacle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VerticlalRotatingObstacle (1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VerticlalRotatingObstacle (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RoadDownAreaTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RoadDownAreaTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RoadTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RoadTrigger.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimatorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimatorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleMoveScripts/DSScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleMoveScripts/DSScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleMoveScripts/RLScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleMoveScripts/RLScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleMoveScripts/VerRotObstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleMoveScripts/VerRotObstacle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Slide.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +25,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/b0/d923a742/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/OneDrive/Masaüstü/SCRİPTS/CameraFollow/CameraFollow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/OneDrive/Masaüstü/SCRİPTS/UNİTYACTİON KULLANIMI/Test1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.11/Runtime/Behaviours/CinemachineSmoothPath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b8ee30bf80844b1daf0538035758583c3d298/25/37efbba6/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/33/e26dce8d/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3b66f0ad4e34a55b6ef91ab8487819313c000/8d/75558e8c/UnityAction`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,6 +96,18 @@
       <workItem from="1646990880586" duration="6027000" />
       <workItem from="1647246167062" duration="4268000" />
       <workItem from="1647341988665" duration="6909000" />
+      <workItem from="1647432511061" duration="3352000" />
+      <workItem from="1647523697516" duration="2985000" />
+      <workItem from="1647641106516" duration="625000" />
+      <workItem from="1647684696519" duration="615000" />
+      <workItem from="1647687356477" duration="1876000" />
+      <workItem from="1647693108003" duration="2991000" />
+      <workItem from="1648135229155" duration="649000" />
+      <workItem from="1648140588238" duration="4262000" />
+      <workItem from="1648503058254" duration="2681000" />
+      <workItem from="1649427609404" duration="1299000" />
+      <workItem from="1649543223593" duration="757000" />
+      <workItem from="1650291182096" duration="757000" />
     </task>
     <servers />
   </component>

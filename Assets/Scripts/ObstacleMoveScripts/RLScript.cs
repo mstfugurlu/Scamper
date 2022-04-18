@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class RLScript : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class RLScript : MonoBehaviour
     [SerializeField] private PlayerMove MovePlayer;
     public GameObject CmCamera;
     public AudioSource AudioSource;
+    [SerializeField] private GameObject camera;
     private void Awake()
     {
         AudioSource = gameObject.GetComponent<AudioSource>();
@@ -43,6 +45,7 @@ public class RLScript : MonoBehaviour
             MovePlayer.enabled = false;
             CmCamera.SetActive(false);
             MovePlayer._audioSource.enabled = false;
+            camera.GetComponent<ParentConstraint>().enabled = false;
             foreach (GameObject rb in MovePlayer.PlayerBody)
             {
                 rb.GetComponent<Rigidbody>().isKinematic = false;

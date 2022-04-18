@@ -27,7 +27,8 @@ public class Slide : MonoBehaviour
             slideDelta = secondTouch - startTouch;
             startTouch = secondTouch; 
             RotateObstacle?.Invoke(slideDelta.x);
-            Debug.Log(slideDelta);
+            
+            
         }
 
 
